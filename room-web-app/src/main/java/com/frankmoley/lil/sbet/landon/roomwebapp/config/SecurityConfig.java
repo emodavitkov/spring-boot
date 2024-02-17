@@ -30,9 +30,9 @@ public class SecurityConfig {
 
         http
                 .authorizeHttpRequests(r -> r
-                        .requestMatchers("/","/api/*")
-                        //.permitAll()
-                        .authenticated()
+                        .requestMatchers("/","/api/*","/api/rest/*")
+                        .permitAll()
+                        //.authenticated()
                         .anyRequest().authenticated())
                 .formLogin(form -> form.loginPage("/login").permitAll());
         return http.build();
