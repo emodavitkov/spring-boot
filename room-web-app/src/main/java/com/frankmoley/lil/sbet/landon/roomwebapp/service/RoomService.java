@@ -20,6 +20,10 @@ public class RoomService {
     public List<Room> getAllRooms(){
         return roomRepository.findAll();
     }
+
+    public Room getById(long id) {
+        return roomRepository.findById(id).get();
+    }
     // private static final List<Room> rooms = new ArrayList();
 
     //static{

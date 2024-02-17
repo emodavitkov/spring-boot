@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/room-web-app/pom.xml" />
         <option value="$PROJECT_DIR$/room-clr/pom.xml" />
         <option value="$PROJECT_DIR$/fizz-buzz/pom.xml" />
+        <option value="$PROJECT_DIR$/room-cleaner-notifier/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

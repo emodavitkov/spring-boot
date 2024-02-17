@@ -9,6 +9,7 @@
         <module name="booting-web" />
         <module name="room-web-app" />
         <module name="fizz-buzz" />
+        <module name="room-cleaner-notifier" />
         <module name="room-clr" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="booting-web" options="-parameters" />
       <module name="fizz-buzz" options="-parameters" />
+      <module name="room-cleaner-notifier" options="-parameters" />
       <module name="room-clr" options="-parameters" />
       <module name="room-web-app" options="-parameters" />
     </option>
